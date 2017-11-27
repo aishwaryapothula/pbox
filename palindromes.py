@@ -1,7 +1,7 @@
 #AishwaryaPothula
 #To find out whether a word is a palindrome
 
-a=input("enter a word\n") #raw_input if executing in python2
+a=raw_input("enter a word\n") #input if executing in python2
 b=a[::-1]
 if a==b:
     print("is a palindrome")
