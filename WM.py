@@ -1,5 +1,5 @@
-import time
-import math
+#AishwaryaPothula
+#Learning to use classes
 
 class WashingMachine():
     def __init__(self,temp=25,time=1,rotations=4,gentle=2,detergent=1,high=True):
