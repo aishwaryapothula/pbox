@@ -32,7 +32,7 @@ while(i<=5):
     Making a list of all brain weights in the data
     '''
     dict={"body":a,"brain":b}
-    print(dict)
+    print("\n{}".format(dict))
     i+=1
 print("\nBody weights are {}".format(body_weight))
 print("Brain weights are{}".format(brain_weight))
@@ -47,7 +47,7 @@ while(z<len(body_weight)):
     Made a few calculations in advance to make co-effiencts calculations easier
     '''
     z+=1
-print("\n{} x sqaures".format(x2))
+print("\n{} x2".format(x2))
 print("{} xy".format(xy))
 
 ce1=((sum(brain_weight)*sum(x2))-(sum(body_weight)*sum(xy)))/((i*sum(x2))-(sum(body_weight)**2))
@@ -58,12 +58,12 @@ Formule to calculate co-effiecients in the linear equation of form y=mx+c.  m=ce
 print("\n{}".format(ce1))
 print(ce2)
 
-x0=float(input("enter independent value to find dependent value: "))
+x0=float(input("\nEnter Body weight to find out respective Brain weight: "))
 '''
 Take input Body weight to give Brain weight according to Linear Regression equation below.
 '''
 y0=ce1*x0+ce2
-print("dependent value is: {}".format(y0))
+print("\nUsing Liner Regression Brain weight : Body weight is: {}\n".format({x0:y0}))
 
 
 
