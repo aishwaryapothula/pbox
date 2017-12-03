@@ -9,7 +9,7 @@ brain_weight=[]
 i=1
 z=0
 '''
-variables for iteration
+Variables for iteration
 '''
 x2=[]
 '''
