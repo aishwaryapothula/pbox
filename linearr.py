@@ -8,8 +8,17 @@ body_weight=[]
 brain_weight=[]
 i=1
 z=0
+'''
+variables for iteration
+'''
 x2=[]
+'''
+Squares of all Body weights
+'''
 xy=[]
+'''
+Products of all Body weights and Brain weights
+'''
 
 while(i<=5):
     a=random.randint(0,101)
