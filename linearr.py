@@ -13,11 +13,11 @@ variables for iteration
 '''
 x2=[]
 '''
-Squares of all Body weights
+Squares of all Body weights for ease of calculation
 '''
 xy=[]
 '''
-Products of all Body weights and Brain weights
+Products of all Body weights and Brain weights for ease of calculation
 '''
 
 while(i<=5):
