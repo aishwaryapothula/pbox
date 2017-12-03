@@ -34,7 +34,7 @@ ce2=((i*sum(xy))-(sum(x)*sum(y)))/((i*sum(x2))-(sum(x)**2))
 print("\n{}".format(ce1))
 print(ce2)
 
-x0=input("enter independent value to find dependent value: ")
+x0=float(input("enter independent value to find dependent value: "))
 y0=ce1*x0+ce2
 print("dependent value is: {}".format(y0))
 
