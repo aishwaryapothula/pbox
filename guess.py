@@ -20,9 +20,9 @@ while(counter<6):
 if(counter==6):
     print("The number is {}.Better luck next time".format(a))
 
-#importing random module from python
-#random.randint selects a random integer from the given range
-#using variable counter to count number of chances
-#taking guesses and checking conditions
-#if it is not the right number the loop goes on for 6 times otherwise break from loop;increments counter
-#checks for counter value and if it exceeds 6 chances game ends
+#Importing random module from python
+#Random.randint selects a random integer from the given range
+#Using variable counter to count number of chances
+#Taking guesses and checking conditions
+#If it is not the right number the loop goes on for 6 times otherwise break from loop;increments counter
+#Checks for counter value and if it exceeds 6 chances game ends
